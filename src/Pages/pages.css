@@ -1,0 +1,122 @@
+#subscription-page,
+#profile-page {
+    background-color: #111;
+    padding-block: 5rem 3rem;
+}
+
+#subscription-page p {
+    text-align: center;
+    max-width: 55ch;
+    margin: 1rem auto;
+}
+
+.plans-container {
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-block: 5rem 3rem;
+}
+
+.plan {
+    font-weight: bold;
+    color: var(--color-background);
+    background-color: var(--color-primary);
+    width: calc(calc(100% - 6rem) / 3);
+    min-height: 2rem;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+#subscription-page .plan p {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.plan-pricing span {
+    font-size: 2rem;
+}
+
+.plan hr {
+    margin-block: 20px;
+    opacity: 0.2;
+}
+
+.plan ul {
+    min-height: 12rem;
+}
+
+.plan ul li {
+    margin-block: 10px;
+    color: #333;
+}
+
+.plan button {
+    color: var(--color-background);
+    border-color: var(--color-background);
+    width: 100%;
+}
+
+#profile-page img {
+    min-width: 35%;
+    aspect-ratio: 1/1;
+    object-position: center top;
+}
+
+#profile-page .flex {
+    gap: 3rem;
+}
+
+#profile-page h2 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-block: 10px 2rem;
+}
+
+#profile-page .socials {
+    margin-block: 2rem;
+}
+
+#profile-page .socials i {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 50px;
+    background-color: var(--color-primary);
+    width: 50px;
+    aspect-ratio: 1/1;
+    margin-right: 15px;
+}
+
+#profile-page .socials .fa-facebook {
+    background-color: #1877F2;
+}
+
+#profile-page .socials .fa-instagram {
+    background-color: #E4405F;
+}
+
+#profile-page .socials .fa-whatsapp {
+    background-color: #25d366;
+}
+
+#profile-page .socials .fa-youtube {
+    background-color: #FF0000;
+}
+
+@media (max-width:850px) {
+    .plan {
+        width: 100%;
+    }
+
+    #profile-page .flex {
+        flex-direction: column;
+    }
+
+    #profile-page .flex img {
+        width: 100%;
+    }
+}
+
+@media (min-width:850px) and (max-width: 1140px) {
+    .plan {
+        width: calc(50% - 2rem);
+    }
+}
