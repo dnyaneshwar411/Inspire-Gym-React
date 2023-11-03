@@ -66,6 +66,15 @@ footer .socials i {
     text-align-last: center;
 }
 
+footer .copyright-socials .text-highlighter {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+footer .copyright-socials .text-highlighter:hover {
+    color: var(--color-primary);
+}
+
 footer .socials .fa-facebook:hover {
     color: #1877F2;
 }

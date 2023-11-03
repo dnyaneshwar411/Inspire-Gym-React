@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copyright-socials flex">
-                <p>© INSPIRE 2023</p>
+                <p>© INSPIRE 2023 | Developed by <a target="_blank" href="tel: +919067183889" className="text-highlighter">@DNYANESHWAR</a></p>
                 <div className="socials">
                     <a href="https://www.instagram.com/athleanx" target="_blank"><i className="fa-brands fa-instagram"></i></a>
                     <a href="https://www.facebook.com/athleanx" target="_blank"><i className="fa-brands fa-facebook"></i></a>
