@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="full-container flex">
                 <div className="wrapper">
                     <h1>RAISE THE BAR OF YOUR FITNESS</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam labore autem illum, molestias doloremque voluptates, sint vero id optio omnis, aut distinctio dignissimos quasi quis maxime debitis explicabo fugiat eveniet.</p>
+                    <p>Explore our top-notch gym featuring modern equipment and professional trainers. Join us now to start your fitness journey and unlock a healthier, stronger you. Get started today!</p>
                     <NavLink to='/contact'><button className="btn-primary">Get Started Now</button></NavLink>
                     <div className="flex">
                         <div>

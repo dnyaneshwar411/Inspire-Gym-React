@@ -5,7 +5,6 @@ const Service = ({ service }) => {
                 onMouseOver={e => e.target.style.backgroundImage = 'rgba(0,0,0,0)'}>
                 <i className={service.icon}></i>
                 <h4>{service.serviceHeading}</h4>
-                <p>{service.serviceDesc}</p>
             </div>
         </div >
     )

@@ -10,19 +10,16 @@ const Services = () => {
             id: 1,
             icon: 'fa-regular fa-heart',
             serviceHeading: 'HEALTH',
-            serviceDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, delectus exercitationem ab pariatur vel nostrum.',
             backgroundImage: ServiceImage1
         }, {
             id: 2,
             icon: 'fa-solid fa-dumbbell',
             serviceHeading: 'WORKOUT',
-            serviceDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, delectus exercitationem ab pariatur vel nostrum.',
             backgroundImage: ServiceImage2
         }, {
             id: 3,
             icon: 'fa-solid fa-headphones',
             serviceHeading: 'FUN & ADVENTURE',
-            serviceDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, delectus exercitationem ab pariatur vel nostrum.',
             backgroundImage: ServiceImage3
         }
     ]
